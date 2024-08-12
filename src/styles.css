@@ -132,3 +132,19 @@ img.socialIcon {
     transform: translateX(0);
   }
 }
+/* animate the scroll down arrow in your Home component to bounce up and down on your page. */
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
